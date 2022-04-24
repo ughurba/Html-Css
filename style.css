@@ -1,0 +1,51 @@
+.header{
+background-color: #FFFFFF;;
+
+}
+.content-header
+{
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.logo
+{
+margin-left: 120px;
+}
+.nav
+{
+margin-right: 400px;
+}
+.nav-link
+{
+margin-left: 50px;
+font-family: 'Oswald';
+font-size: 14px;
+line-height: 1.8;
+text-transform: uppercase;
+color: #000000;
+text-decoration: none;
+}
+.nav-link:first-child{
+    margin: 0px;
+}
+.btn
+{
+    margin-right: 160px;
+    line-height: 1.3;
+    border-radius:30px;
+    background-color: blue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+.right-btn{
+font-family: 'Oswald';
+font-size: 14px;
+
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
