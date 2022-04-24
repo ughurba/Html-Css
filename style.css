@@ -26,6 +26,9 @@ text-transform: uppercase;
 color: #000000;
 text-decoration: none;
 }
+.nav-link:hover{
+    color:violet;
+}
 .nav-link:first-child{
     margin: 0px;
 }
@@ -41,11 +44,102 @@ text-decoration: none;
     padding-bottom: 14px;
 
 }
+.btn:hover{
+    background-color: blueviolet;
+    opacity: 0.8;
+    cursor: pointer;
+}
 .right-btn{
 font-family: 'Oswald';
 font-size: 14px;
-
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
+text-decoration: none;
+}
+
+/* Main */
+
+.container-main
+{
+display: flex;
+justify-content: space-between;
+}
+.left-text-img-btn
+{
+margin-left: 120px;
+padding-top: 140px;
+}
+.main-title
+{
+font-family: 'Oswald';
+font-size: 56px;
+line-height: 1.18;
+text-transform: uppercase;
+color: #000000;
+}
+.main-ikon-name-star
+{
+    display: flex;
+}
+.main-text
+{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.62;
+color: #000000;
+}
+.main-girl-name
+{
+margin: 0;
+font-family: 'Oswald';
+font-size: 18px;
+line-height: 1.56;
+text-transform: uppercase;
+color: #000000;
+}
+.main-star
+{
+    margin-top: 10px;
+}
+.main-btn
+{
+position: relative;
+right: 100px;
+margin-top: 65px;
+background: #FFA332;
+border-radius: 30px;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.main-btn-bottom
+{
+display: inline-block;
+text-decoration: none;
+font-family: 'Oswald';
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main-btn:hover{
+    background-color: blueviolet;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.main-img
+{
+    margin-right: 100px;
+    padding-top: 52px;
+}
+
+.main-girl-star-name-btn
+{
+    margin-left: 20px;
 }
